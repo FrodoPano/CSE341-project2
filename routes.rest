@@ -1,0 +1,21 @@
+//LOCALHOST
+### GET all users
+GET http://localhost:3001/users
+
+
+
+### Create contact
+POST http://localhost:3001/users HTTP/1.1
+content-type: application/json
+{
+    "firstName": "Ashley",
+    "lastName": "Graves",
+    "email": "aWeaver@test.com",
+    "favoriteColor": "Green",
+    "birthday": "06/19/2000"
+}
+
+
+### DELETE
+
+DELETE http://localhost:3000/users/<id_user>
