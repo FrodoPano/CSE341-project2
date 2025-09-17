@@ -8,11 +8,10 @@ GET http://localhost:3001/users
 POST http://localhost:3001/users HTTP/1.1
 content-type: application/json
 {
-    "firstName": "Ashley",
-    "lastName": "Graves",
-    "email": "aWeaver@test.com",
-    "favoriteColor": "Green",
-    "birthday": "06/19/2000"
+    "name": "Sunkern",
+    "type": "grass",
+    "number": "102",
+    "worldNumber": "191"
 }
 
 
