@@ -48,19 +48,16 @@
             "schema": {
               "type": "object",
               "properties": {
-                "firstName": {
+                "name": {
                   "example": "any"
                 },
-                "lastName": {
+                "type": {
                   "example": "any"
                 },
-                "email": {
+                "number": {
                   "example": "any"
                 },
-                "favoriteColor": {
-                  "example": "any"
-                },
-                "birthday": {
+                "worldNumber": {
                   "example": "any"
                 }
               }
@@ -118,16 +115,16 @@
             "schema": {
               "type": "object",
               "properties": {
-                "userName": {
+                "pokemonName": {
                   "example": "any"
                 },
-                "email": {
+                "region": {
                   "example": "any"
                 },
-                "name": {
+                "regionalNumber": {
                   "example": "any"
                 },
-                "ipaddress": {
+                "level": {
                   "example": "any"
                 }
               }
