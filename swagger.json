@@ -115,16 +115,16 @@
             "schema": {
               "type": "object",
               "properties": {
-                "pokemonName": {
-                  "example": "any"
-                },
                 "region": {
                   "example": "any"
                 },
-                "regionalNumber": {
+                "type": {
                   "example": "any"
                 },
                 "level": {
+                  "example": "any"
+                },
+                "form": {
                   "example": "any"
                 }
               }
