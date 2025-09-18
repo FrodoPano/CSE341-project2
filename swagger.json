@@ -115,16 +115,19 @@
             "schema": {
               "type": "object",
               "properties": {
-                "region": {
+                "name": {
                   "example": "any"
                 },
                 "type": {
                   "example": "any"
                 },
-                "level": {
+                "number": {
                   "example": "any"
                 },
-                "form": {
+                "worldNumber": {
+                  "example": "any"
+                },
+                "region": {
                   "example": "any"
                 }
               }
