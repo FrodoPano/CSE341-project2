@@ -126,9 +126,6 @@
                 },
                 "worldNumber": {
                   "example": "any"
-                },
-                "region": {
-                  "example": "any"
                 }
               }
             }
