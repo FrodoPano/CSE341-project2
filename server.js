@@ -78,3 +78,9 @@ mongodb.initDb((err, mongodb) => {
         app.listen(port, () => {console.log(`Database is listening and node Running on port ${port}`)});
     }
 });
+
+app.use(session({
+    secret: process.env.SESSION_SECRET || "fallback-secret-change-in-production",
+    resave: false,
+    saveUninitialized: true,
+}));
